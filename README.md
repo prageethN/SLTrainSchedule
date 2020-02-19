@@ -13,4 +13,6 @@ Station details with contact numbers
 
 Note:  Note that the application displays train timetable data and ticket prices received from the ICTA's railway service REST API, which could be inaccurate in some cases which are beyond this app's control.
 
-### The app is no longer functioning since Windows Phone platform is no longer exists 
+--The app is no longer functioning since Windows Phone platform is no longer exists 
+
+Visit: https://www.microsoft.com/en-us/p/sl-train-schedule/9wzdncrdhqql?rtc=1&activetab=pivot:overviewtab
