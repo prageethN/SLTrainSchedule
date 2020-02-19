@@ -12,3 +12,5 @@ Add favorite train schedules
 Station details with contact numbers    
 
 Note:  Note that the application displays train timetable data and ticket prices received from the ICTA's railway service REST API, which could be inaccurate in some cases which are beyond this app's control.
+
+### The app is no longer functioning since Windows Phone platform is no longer exists 
