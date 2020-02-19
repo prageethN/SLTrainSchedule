@@ -1,0 +1,150 @@
+﻿<phone:PhoneApplicationPage
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:ViewModels="clr-namespace:PrototypeBeta.ViewModels"
+     xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    x:Class="PrototypeBeta.ConnectedScheduleDetailPage"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="False"
+    Style="{StaticResource TransitionPageStyle1}">
+
+    <phone:PhoneApplicationPage.DataContext>
+        <ViewModels:ScheduleDetailViewModel/>
+    </phone:PhoneApplicationPage.DataContext>
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="{StaticResource AppBackgroundBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal"  Background="White" >
+            <Image Source="/Images/trainIconSmall.png" Stretch="Uniform" Height="48" Width="48" Margin="24,6,0,6"/>
+            <TextBlock  Margin="6,0,0,6" Text="Sri Lanka Train Schedule" FontSize="30" VerticalAlignment="Bottom" Foreground="{StaticResource AppTitleForgroundBrush}"/>
+        </StackPanel>
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel Grid.Row="1" Margin="24,0,0,0" >
+            <TextBlock Text="{Binding detailHeader}" FontSize="48" Foreground="{StaticResource PanoramaItemHeaderBrush}"/>
+            <TextBlock Text="{Binding departureTime}" FontSize="36" Foreground="{StaticResource PanoramaItemHeaderBrush}"/>
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <ScrollViewer x:Name="spSearch" Margin="0,0,0,0" VerticalScrollBarVisibility="Visible" Grid.Row="2" >
+            <Grid x:Name="ContentPanel" Grid.Row="2" Margin="24,0,12,0">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Border  Grid.Row="0"  BorderBrush="{StaticResource AppTextLightBrush}" BorderThickness="1" CornerRadius="1" Margin="0,12,12,0" >
+                    <Grid x:Name="TimePanel"  Background="White" >
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width=".6*"/>
+                            <ColumnDefinition Width=".4*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <TextBlock Text="Arrive at" Style="{StaticResource PhoneTextNormalStyle}" Grid.Row="0" Grid.Column="0" Foreground="{StaticResource AppTextLightBrush}"/>
+                        <TextBlock Text="{Binding startStationName}" Foreground="{StaticResource AppTextLightBrush}" FontSize="36" Grid.Row="1" Grid.Column="0" Margin="12,0,0,0"/>
+                        <TextBlock Text="{Binding arrivalTime}" Foreground="{StaticResource AppTextLightBrush}" FontSize="36" Grid.Row="1" Grid.Column="1" Margin="12,0,0,0"/>
+                        <TextBlock Text="Reach" Style="{StaticResource PhoneTextNormalStyle}" Grid.Row="2" Grid.Column="0" Foreground="{StaticResource AppTextLightBrush}"/>
+                        <TextBlock Text="{Binding endStationName}" Foreground="{StaticResource AppTextLightBrush}" FontSize="36" Grid.Row="3" Grid.Column="0" Margin="12,0,0,0"/>
+                        <TextBlock Text="{Binding arrivalTimeEndStation}" Foreground="{StaticResource AppTextLightBrush}" FontSize="36" Grid.Row="3" Grid.Column="1" Margin="12,0,0,0"/>
+                        <TextBlock Text="Travel time" Style="{StaticResource PhoneTextNormalStyle}" Grid.Row="4" Grid.Column="0" Foreground="{StaticResource AppTextLightBrush}" />
+                        <TextBlock Text="{Binding travelTime}" Foreground="{StaticResource AppTextLightBrush}" FontSize="36" Grid.Row="5" Grid.Column="0" Margin="12,0,0,0"/>
+                        <TextBlock Text="Distance" Style="{StaticResource PhoneTextNormalStyle}" Grid.Row="7" Grid.Column="0" Foreground="{StaticResource AppTextLightBrush}" />
+                        <TextBlock Name="txtDistance" Foreground="{StaticResource AppTextLightBrush}" FontSize="36" Grid.Row="8" Grid.Column="0" Margin="12,0,0,0"/>
+                    </Grid>
+                </Border>
+                <Border  Grid.Row="1"  BorderBrush="{StaticResource AppTextLightBrush}" BorderThickness="1" CornerRadius="1" Margin="0,6,12,6" >
+                    <Grid x:Name="TicketPanel"  Background="White" >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <TextBlock Text="Ticket Price" Style="{StaticResource PhoneTextNormalStyle}" FontSize="24" Grid.Row="0" Grid.Column="0" Foreground="{StaticResource AppTextLightBrush}" Margin="12,0,0,12"/>
+                        <TextBlock Text="1st class" Style="{StaticResource PhoneTextNormalStyle}" Grid.Row="1" Grid.Column="0" Foreground="{StaticResource AppTextLightBrush}"/>
+                        <TextBlock Name="txtFirstClass" Foreground="{StaticResource AppTextLightBrush}" FontSize="36" Grid.Row="2" Grid.Column="0" Margin="12,0,0,0"/>
+                        <TextBlock Text="2nd class" Style="{StaticResource PhoneTextNormalStyle}" Grid.Row="3" Grid.Column="0" Foreground="{StaticResource AppTextLightBrush}"/>
+                        <TextBlock Name="txtSecondClass" Foreground="{StaticResource AppTextLightBrush}" FontSize="36" Grid.Row="4" Grid.Column="0" Margin="12,0,0,0"/>
+                        <TextBlock Text="3rd class" Style="{StaticResource PhoneTextNormalStyle}" Grid.Row="5" Grid.Column="0" Foreground="{StaticResource AppTextLightBrush}" />
+                        <TextBlock Name="txtThirdClass"  Foreground="{StaticResource AppTextLightBrush}" FontSize="36" Grid.Row="6" Grid.Column="0" Margin="12,0,0,0"/>
+                    </Grid>
+                </Border>
+
+                <Grid x:Name="ConntedPanel" Grid.Row="2" Margin="0,0,12,30"  >
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <StackPanel Grid.Row="0" Margin="0,6,0,6" Background="White">
+                        <TextBlock Text="Train List" Style="{StaticResource PhoneTextNormalStyle}" FontSize="24" Grid.Row="0" Grid.Column="0" Foreground="{StaticResource AppTextLightBrush}" Margin="12,0,0,0"/>
+                    </StackPanel>
+                    <phone:LongListSelector x:Name="lsConnectedTrainResult"  Grid.Row="3" Foreground="{StaticResource AppTextLightBrush}">
+                        <phone:LongListSelector.ItemTemplate>
+
+                            <DataTemplate>
+                                <Border  Grid.Row="1"  BorderBrush="{StaticResource AppTextLightBrush}" BorderThickness="1" CornerRadius="1" Margin="0,0,0,6" >
+                                    <StackPanel Orientation="Horizontal" Background="White" >
+                                        <Grid Grid.Row="1" Background="White">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="Auto"/>
+                                                <ColumnDefinition Width="Auto"/>
+                                            </Grid.ColumnDefinitions>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="Auto"/>
+                                                <RowDefinition Height="Auto"/>
+                                                <RowDefinition Height="Auto"/>
+                                                <RowDefinition Height="Auto"/>
+                                                <RowDefinition Height="Auto"/>
+                                            </Grid.RowDefinitions>
+                                            <TextBlock Text="From" Style="{StaticResource PhoneTextNormalStyle}" Grid.Row="1" Grid.Column="0" Foreground="{StaticResource AppTextLightBrush}"/>
+                                            <TextBlock Text="Departs" Style="{StaticResource PhoneTextNormalStyle}" Grid.Row="1" Grid.Column="1" Foreground="{StaticResource AppTextLightBrush}"/>
+                                            <TextBlock Text="{Binding startStation}" Foreground="{StaticResource AppTextLightBrush}" FontSize="36" Grid.Row="2" Grid.Column="0" Margin="12,0,0,0"/>
+                                            <TextBlock Text="{Binding startTime}" Foreground="{StaticResource AppTextLightBrush}" FontSize="36" Grid.Row="2" Grid.Column="1" Margin="12,0,0,0"/>
+                                            <TextBlock Text="To" Style="{StaticResource PhoneTextNormalStyle}" Grid.Row="3" Grid.Column="0" Foreground="{StaticResource AppTextLightBrush}"/>
+                                            <TextBlock Text="Arrives" Style="{StaticResource PhoneTextNormalStyle}" Grid.Row="3" Grid.Column="1" Foreground="{StaticResource AppTextLightBrush}"/>
+                                            <TextBlock Text="{Binding endStation}" Foreground="{StaticResource AppTextLightBrush}" FontSize="36" Grid.Row="4" Grid.Column="0" Margin="12,0,0,0"/>
+                                            <TextBlock Text="{Binding endTime}" Foreground="{StaticResource AppTextLightBrush}" FontSize="36" Grid.Row="4" Grid.Column="1" Margin="12,0,0,0"/>
+                                        </Grid>                              
+                                </StackPanel>
+                                </Border>
+                            </DataTemplate>
+                        </phone:LongListSelector.ItemTemplate>
+                    </phone:LongListSelector>
+                </Grid>
+            </Grid>
+        </ScrollViewer>
+    </Grid>
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" Mode="Minimized" Opacity="0.5">
+            <shell:ApplicationBarIconButton IconUri="/Images/AppBarIcon/appbar.home.png" Text="home" Click="GoHome_Click" IsEnabled="True"/>
+            <shell:ApplicationBarIconButton IconUri="/Images/AppBarIcon/share.png" Text="share" Click="ApplicationBarIconButton_Click" />
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+</phone:PhoneApplicationPage>

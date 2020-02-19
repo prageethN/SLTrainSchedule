@@ -1,0 +1,103 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="PrototypeBeta.AboutPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+     xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    xmlns:telerikInput="clr-namespace:Telerik.Windows.Controls;assembly=Telerik.Windows.Controls.Input" 
+    xmlns:telerikPrimitives="clr-namespace:Telerik.Windows.Controls;assembly=Telerik.Windows.Controls.Primitives"
+    xmlns:telerik="clr-namespace:Telerik.Windows.Controls;assembly=Telerik.Windows.Core"
+    xmlns:viewModels="clr-namespace:PrototypeBeta.ViewModels"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource AppTextLightBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="False"
+    Style="{StaticResource TransitionPageStyle}"
+    toolkit:TiltEffect.IsTiltEnabled="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="{StaticResource AppBackgroundBrush}">
+        <Grid.DataContext>
+            <viewModels:CommandSampleViewModel/>
+        </Grid.DataContext>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal"  Background="White" >
+            <Image Source="/Images/TrainIconSmall.png" Stretch="Uniform" Height="48" Width="48" Margin="24,6,0,6"/>
+            <TextBlock  Margin="6,0,0,6" Text="Sri Lanka Train Schedule" FontSize="30" VerticalAlignment="Bottom" Foreground="{StaticResource AppTitleForgroundBrush}"/>
+        </StackPanel>
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel Grid.Row="1" Margin="24,-12,0,0" >
+            <TextBlock Text="about" CharacterSpacing="-35" Foreground="{StaticResource PanoramaItemHeaderBrush}" FontSize="66" FontFamily="{StaticResource PhoneFontFamilySemiLight}" HorizontalAlignment="Left" />
+        </StackPanel>
+
+        <Grid x:Name="ContentPanel" Grid.Row="2" Margin="12,0,12,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition />
+            </Grid.RowDefinitions>
+
+            <StackPanel>
+                <TextBlock 
+                    Text="Sri Lanka Train Schedule" 
+                    Margin="12,0,12,0" 
+                    FontSize="{StaticResource PhoneFontSizeLarge}" 
+                    FontFamily="{StaticResource PhoneFontFamilySemiBold}"/>
+                <TextBlock 
+                    Text="v 1.1" 
+                    Margin="12,0,12,0" 
+                    FontSize="{StaticResource PhoneFontSizeNormal}"/>
+            
+            <ScrollViewer VerticalScrollBarVisibility="Visible" Margin="12,12,12,0" Height="320">
+                <TextBlock
+                Name="txtAppDescription"
+                Grid.Row="1"
+                TextWrapping="Wrap" 
+                Foreground="{StaticResource AppTextLightBrush}" 
+                FontSize="{StaticResource PhoneFontSizeNormal}" />
+              </ScrollViewer>
+            </StackPanel>
+            <HyperlinkButton 
+                Grid.Row="2" 
+                Content="technical support/feedback email" 
+                Margin="0,12,0,0" 
+                HorizontalAlignment="Left" 
+                Foreground="{StaticResource PhoneAccentBrush}" 
+                FontSize="{StaticResource PhoneFontSizeNormal}" 
+                Command="{Binding SendAnEmailCommand}"/>
+            <HyperlinkButton 
+                Grid.Row="3"
+                Content="rate this app" 
+                Margin="0,12,0,0" 
+                HorizontalAlignment="Left" 
+                Foreground="{StaticResource PhoneAccentBrush}" 
+                FontSize="{StaticResource PhoneFontSizeNormal}" 
+                Command="{Binding RateThisAppCommand}" />
+            <StackPanel Grid.Row="4" Margin="12,0,12,12" VerticalAlignment="Bottom">
+                <StackPanel Height="100" Width="300" HorizontalAlignment="Left" >
+                    <Image 
+                    Source="Images/logo/EightLabs.png" 
+                    Stretch="Fill" 
+                    HorizontalAlignment="Left" />
+                </StackPanel>
+                <TextBlock 
+                    Text="Copyright"                     
+                    FontSize="{StaticResource PhoneFontSizeNormal}"/>
+                <TextBlock 
+                    Text="EightLabs" 
+                    FontSize="{StaticResource PhoneFontSizeNormal}"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</phone:PhoneApplicationPage>

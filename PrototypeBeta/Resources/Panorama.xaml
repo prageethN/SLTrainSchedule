@@ -1,0 +1,23 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:vsm="clr-namespace:System.Windows;assembly=System.Windows"
+		xmlns:System="clr-namespace:System;assembly=mscorlib"
+        xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+        xmlns:Primitives="clr-namespace:Microsoft.Phone.Controls.Primitives;assembly=Microsoft.Phone">
+    <ControlTemplate x:Key="PanoramaControlTemplate" TargetType="phone:Panorama">
+        <Grid Background="{StaticResource AppBackgroundBrush}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+
+            <Primitives:PanningBackgroundLayer x:Name="BackgroundLayer" Grid.RowSpan="2" HorizontalAlignment="Left" >
+                <Border x:Name="background" Background="{TemplateBinding Background}" />
+            </Primitives:PanningBackgroundLayer>
+            <Primitives:PanningLayer x:Name="ItemsLayer" Grid.Row="0" HorizontalAlignment="Left" >
+                <ItemsPresenter x:Name="items"/>
+            </Primitives:PanningLayer>
+
+        </Grid>
+    </ControlTemplate>
+
+</ResourceDictionary>

@@ -1,0 +1,55 @@
+﻿<xapCache source="E:\App Dev\Windows Phone\PrototypeBeta\PrototypeBeta\Bin\Debug\PrototypeBeta_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="26-Jun-14 12:03:25 AM">
+  <file source="E:\App Dev\Windows Phone\PrototypeBeta\PrototypeBeta\obj\Debug\PrototypeBeta.dll" archivePath="PrototypeBeta.dll" lastWriteTime="26-Jun-14 12:03:20 AM" />
+  <file source="E:\App Dev\Windows Phone\PrototypeBeta\PrototypeBeta\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="13-Jun-14 4:08:31 PM" />
+  <file source="E:\App Dev\Windows Phone\PrototypeBeta\PrototypeBeta\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="13-Jun-14 4:08:31 PM" />
+  <file source="E:\App Dev\Windows Phone\PrototypeBeta\PrototypeBeta\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="13-Jun-14 4:08:30 PM" />
+  <file source="E:\App Dev\Windows Phone\PrototypeBeta\PrototypeBeta\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="13-Jun-14 4:08:31 PM" />
+  <file source="E:\App Dev\Windows Phone\PrototypeBeta\PrototypeBeta\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="13-Jun-14 4:08:31 PM" />
+  <file source="E:\App Dev\Windows Phone\PrototypeBeta\PrototypeBeta\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="13-Jun-14 4:08:31 PM" />
+  <file source="E:\App Dev\Windows Phone\PrototypeBeta\PrototypeBeta\Images\Date.png" archivePath="Images\Date.png" lastWriteTime="01-Jun-14 3:07:52 PM" />
+  <file source="E:\App Dev\Windows Phone\PrototypeBeta\PrototypeBeta\Images\DatePickerEmptyContent.png" archivePath="Images\DatePickerEmptyContent.png" lastWriteTime="26-May-14 7:07:23 PM" />
+  <file source="E:\App Dev\Windows Phone\PrototypeBeta\PrototypeBeta\Images\DateTimePickerCancel.png" archivePath="Images\DateTimePickerCancel.png" lastWriteTime="26-Feb-14 11:12:40 AM" />
+  <file source="E:\App Dev\Windows Phone\PrototypeBeta\PrototypeBeta\Images\DateTimePickerOK.png" archivePath="Images\DateTimePickerOK.png" lastWriteTime="26-Feb-14 11:12:40 AM" />
+  <file source="E:\App Dev\Windows Phone\PrototypeBeta\PrototypeBeta\Images\Frame.png" archivePath="Images\Frame.png" lastWriteTime="21-Jun-14 3:48:38 PM" />
+  <file source="E:\App Dev\Windows Phone\PrototypeBeta\PrototypeBeta\Images\FrameThumbnail.png" archivePath="Images\FrameThumbnail.png" lastWriteTime="21-Jun-14 3:48:38 PM" />
+  <file source="E:\App Dev\Windows Phone\PrototypeBeta\PrototypeBeta\Images\map\railwaymap.png" archivePath="Images\map\railwaymap.png" lastWriteTime="14-Jun-14 5:05:52 PM" />
+  <file source="E:\App Dev\Windows Phone\PrototypeBeta\PrototypeBeta\Images\Select.png" archivePath="Images\Select.png" lastWriteTime="21-Jun-14 3:48:38 PM" />
+  <file source="E:\App Dev\Windows Phone\PrototypeBeta\PrototypeBeta\Images\TrainIconSmall.png" archivePath="Images\TrainIconSmall.png" lastWriteTime="27-May-14 10:23:59 PM" />
+  <file source="E:\App Dev\Windows Phone\PrototypeBeta\PrototypeBeta\Map.htm" archivePath="Map.htm" lastWriteTime="14-Jun-14 6:23:29 PM" />
+  <file source="E:\App Dev\Windows Phone\PrototypeBeta\PrototypeBeta\README_FIRST.txt" archivePath="README_FIRST.txt" lastWriteTime="13-Jun-14 4:14:44 PM" />
+  <file source="E:\App Dev\Windows Phone\PrototypeBeta\PrototypeBeta\StaticData\LinesStaticData.xml" archivePath="StaticData\LinesStaticData.xml" lastWriteTime="21-Jun-14 6:41:54 PM" />
+  <file source="E:\App Dev\Windows Phone\PrototypeBeta\PrototypeBeta\Toolkit.Content\ApplicationBar.Add.png" archivePath="Toolkit.Content\ApplicationBar.Add.png" lastWriteTime="13-Jun-14 4:14:44 PM" />
+  <file source="E:\App Dev\Windows Phone\PrototypeBeta\PrototypeBeta\Toolkit.Content\ApplicationBar.Cancel.png" archivePath="Toolkit.Content\ApplicationBar.Cancel.png" lastWriteTime="13-Jun-14 4:14:44 PM" />
+  <file source="E:\App Dev\Windows Phone\PrototypeBeta\PrototypeBeta\Toolkit.Content\ApplicationBar.Check.png" archivePath="Toolkit.Content\ApplicationBar.Check.png" lastWriteTime="13-Jun-14 4:14:44 PM" />
+  <file source="E:\App Dev\Windows Phone\PrototypeBeta\PrototypeBeta\Toolkit.Content\ApplicationBar.Delete.png" archivePath="Toolkit.Content\ApplicationBar.Delete.png" lastWriteTime="13-Jun-14 4:14:44 PM" />
+  <file source="E:\App Dev\Windows Phone\PrototypeBeta\PrototypeBeta\Toolkit.Content\ApplicationBar.Select.png" archivePath="Toolkit.Content\ApplicationBar.Select.png" lastWriteTime="13-Jun-14 4:14:44 PM" />
+  <file source="E:\App Dev\Windows Phone\PrototypeBeta\PrototypeBeta\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="21-Jun-14 8:21:32 PM" />
+  <file source="E:\App Dev\Windows Phone\PrototypeBeta\PrototypeBeta\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="13-Jun-14 4:08:31 PM" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Expression\Blend\Windows Phone\v8.0\Libraries\Microsoft.Expression.Interactions.dll" archivePath="Microsoft.Expression.Interactions.dll" lastWriteTime="25-Sep-12 1:41:02 AM" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Libraries\Microsoft.Phone.Controls.dll" archivePath="Microsoft.Phone.Controls.dll" lastWriteTime="01-Jan-13 6:57:00 PM" />
+  <file source="E:\App Dev\Windows Phone\PrototypeBeta\packages\WPtoolkit.4.2013.08.16\lib\wp8\Microsoft.Phone.Controls.Toolkit.dll" archivePath="Microsoft.Phone.Controls.Toolkit.dll" lastWriteTime="13-Jun-14 4:14:43 PM" />
+  <file source="E:\App Dev\Windows Phone\PrototypeBeta\packages\Dll\Newtonsoft.Json.dll" archivePath="Newtonsoft.Json.dll" lastWriteTime="19-May-14 9:08:29 PM" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Expression\Blend\Windows Phone\v8.0\Libraries\System.Windows.Interactivity.dll" archivePath="System.Windows.Interactivity.dll" lastWriteTime="25-Sep-12 1:41:02 AM" />
+  <file source="C:\Program Files (x86)\Telerik\UI for Windows Phone 8 Q1 2014\Binaries\WindowsPhone\Telerik.Windows.BackgroundAgentTools.dll" archivePath="Telerik.Windows.BackgroundAgentTools.dll" lastWriteTime="26-Feb-14 11:14:32 AM" />
+  <file source="C:\Program Files (x86)\Telerik\UI for Windows Phone 8 Q1 2014\Binaries\WindowsPhone\Telerik.Windows.Behaviors.dll" archivePath="Telerik.Windows.Behaviors.dll" lastWriteTime="26-Feb-14 11:14:26 AM" />
+  <file source="C:\Program Files (x86)\Telerik\UI for Windows Phone 8 Q1 2014\Binaries\WindowsPhone\Telerik.Windows.Controls.Chart.dll" archivePath="Telerik.Windows.Controls.Chart.dll" lastWriteTime="26-Feb-14 11:14:12 AM" />
+  <file source="C:\Program Files (x86)\Telerik\UI for Windows Phone 8 Q1 2014\Binaries\WindowsPhone\Telerik.Windows.Controls.Data.dll" archivePath="Telerik.Windows.Controls.Data.dll" lastWriteTime="26-Feb-14 11:14:08 AM" />
+  <file source="C:\Program Files (x86)\Telerik\UI for Windows Phone 8 Q1 2014\Binaries\WindowsPhone\Telerik.Windows.Controls.DataVisualization.dll" archivePath="Telerik.Windows.Controls.DataVisualization.dll" lastWriteTime="26-Feb-14 11:13:58 AM" />
+  <file source="C:\Program Files (x86)\Telerik\UI for Windows Phone 8 Q1 2014\Binaries\WindowsPhone\Telerik.Windows.Controls.ImageEditor.dll" archivePath="Telerik.Windows.Controls.ImageEditor.dll" lastWriteTime="26-Feb-14 11:14:28 AM" />
+  <file source="C:\Program Files (x86)\Telerik\UI for Windows Phone 8 Q1 2014\Binaries\WindowsPhone\Telerik.Windows.Controls.Input.dll" archivePath="Telerik.Windows.Controls.Input.dll" lastWriteTime="26-Feb-14 11:13:54 AM" />
+  <file source="C:\Program Files (x86)\Telerik\UI for Windows Phone 8 Q1 2014\Binaries\WindowsPhone\Telerik.Windows.Controls.Primitives.dll" archivePath="Telerik.Windows.Controls.Primitives.dll" lastWriteTime="26-Feb-14 11:13:46 AM" />
+  <file source="C:\Program Files (x86)\Telerik\UI for Windows Phone 8 Q1 2014\Binaries\WindowsPhone\Telerik.Windows.Core.dll" archivePath="Telerik.Windows.Core.dll" lastWriteTime="26-Feb-14 11:13:42 AM" />
+  <file source="C:\Program Files (x86)\Telerik\UI for Windows Phone 8 Q1 2014\Binaries\WindowsPhone\Telerik.Windows.Data.dll" archivePath="Telerik.Windows.Data.dll" lastWriteTime="26-Feb-14 11:14:06 AM" />
+  <file source="C:\Program Files (x86)\Telerik\UI for Windows Phone 8 Q1 2014\Binaries\WindowsPhone\Telerik.Windows.BackgroundAgentTools.xml" archivePath="Telerik.Windows.BackgroundAgentTools.xml" lastWriteTime="26-Feb-14 11:14:32 AM" />
+  <file source="C:\Program Files (x86)\Telerik\UI for Windows Phone 8 Q1 2014\Binaries\WindowsPhone\Telerik.Windows.Behaviors.xml" archivePath="Telerik.Windows.Behaviors.xml" lastWriteTime="26-Feb-14 11:14:26 AM" />
+  <file source="C:\Program Files (x86)\Telerik\UI for Windows Phone 8 Q1 2014\Binaries\WindowsPhone\Telerik.Windows.Controls.Chart.xml" archivePath="Telerik.Windows.Controls.Chart.xml" lastWriteTime="26-Feb-14 11:14:12 AM" />
+  <file source="C:\Program Files (x86)\Telerik\UI for Windows Phone 8 Q1 2014\Binaries\WindowsPhone\Telerik.Windows.Controls.Data.xml" archivePath="Telerik.Windows.Controls.Data.xml" lastWriteTime="26-Feb-14 11:14:08 AM" />
+  <file source="C:\Program Files (x86)\Telerik\UI for Windows Phone 8 Q1 2014\Binaries\WindowsPhone\Telerik.Windows.Controls.DataVisualization.xml" archivePath="Telerik.Windows.Controls.DataVisualization.xml" lastWriteTime="26-Feb-14 11:13:58 AM" />
+  <file source="C:\Program Files (x86)\Telerik\UI for Windows Phone 8 Q1 2014\Binaries\WindowsPhone\Telerik.Windows.Controls.ImageEditor.xml" archivePath="Telerik.Windows.Controls.ImageEditor.xml" lastWriteTime="26-Feb-14 11:14:28 AM" />
+  <file source="C:\Program Files (x86)\Telerik\UI for Windows Phone 8 Q1 2014\Binaries\WindowsPhone\Telerik.Windows.Controls.Input.xml" archivePath="Telerik.Windows.Controls.Input.xml" lastWriteTime="26-Feb-14 11:13:54 AM" />
+  <file source="C:\Program Files (x86)\Telerik\UI for Windows Phone 8 Q1 2014\Binaries\WindowsPhone\Telerik.Windows.Controls.Primitives.xml" archivePath="Telerik.Windows.Controls.Primitives.xml" lastWriteTime="26-Feb-14 11:13:46 AM" />
+  <file source="C:\Program Files (x86)\Telerik\UI for Windows Phone 8 Q1 2014\Binaries\WindowsPhone\Telerik.Windows.Core.xml" archivePath="Telerik.Windows.Core.xml" lastWriteTime="26-Feb-14 11:13:42 AM" />
+  <file source="C:\Program Files (x86)\Telerik\UI for Windows Phone 8 Q1 2014\Binaries\WindowsPhone\Telerik.Windows.Data.xml" archivePath="Telerik.Windows.Data.xml" lastWriteTime="26-Feb-14 11:14:06 AM" />
+  <file source="E:\App Dev\Windows Phone\PrototypeBeta\PrototypeBeta\Assets\AppIcon.png" archivePath="Assets\AppIcon.png" lastWriteTime="01-Jun-14 11:00:52 AM" />
+  <file source="E:\App Dev\Windows Phone\PrototypeBeta\PrototypeBeta\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="21-Jun-14 8:21:38 PM" />
+</xapCache>

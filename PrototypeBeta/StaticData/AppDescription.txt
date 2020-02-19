@@ -1,0 +1,11 @@
+﻿This app provides information about Sri Lanka train services and ticket prices.
+ 
+Features 
+ Easy search with direct & connecting train results
+ Price of tickets
+ Share information about trains and ticket prices
+ Save recent searches for later use
+ Add favorite train schedules
+
+Note: 
+Please note that the application displays train timetable data and ticket prices received from the ICTA's railway service API, which could be inaccurate in some cases which are beyond our control. 

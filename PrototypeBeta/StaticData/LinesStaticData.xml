@@ -1,0 +1,57 @@
+﻿<?xml version="1.0"  ?>
+<Lines>
+<Line>
+  <LineID>4</LineID>
+  <LineName>Main Line</LineName>
+  <LineRoute>Colombo Fort to Nawalapitya, Nanu Oya, and Badulla</LineRoute>
+  <LineServices>Udarata Menike&#13;Podi Menike&#13;Tikiri Menike&#13;Senkadagala Menike</LineServices>
+</Line>
+<Line>
+  <LineID>6</LineID>
+  <LineName>Matale Line</LineName>
+  <LineRoute>Peradeniya junction to Kandy and Matale</LineRoute>
+  <LineServices>Senkadagala Menike</LineServices>
+</Line>
+<Line>
+  <LineID>7</LineID>
+  <LineName>Northern Line</LineName>
+  <LineRoute>Polgahawela to Kurunegala, Anuradhapura, Jaffna, and Kankesanturai</LineRoute>
+  <LineServices>Yal Devi&#13;Rajarata Rajina</LineServices>
+</Line>
+<Line>
+  <LineID>5</LineID>
+  <LineName>Mannar Line</LineName>
+  <LineRoute>Medawachchi junction to Mannar, and Talaimannar; temporarily terminates at Madhu Road, due on-going reconstruction</LineRoute>
+  <LineServices></LineServices>
+</Line>
+<Line>
+  <LineID>1</LineID>
+  <LineName>Batticaloa Line</LineName>
+  <LineRoute>Maho Junction Railway Station to Polonnaruwa, and Batticaloa</LineRoute>
+  <LineServices>Udaya Devi&#13;Meena Gaya</LineServices>
+</Line>
+<Line>
+  <LineID>9</LineID>
+  <LineName>Trincomalee Line</LineName>
+  <LineRoute>Gal Oya to Trincomalee</LineRoute>
+  <LineServices></LineServices>
+</Line>
+<Line>
+  <LineID>2</LineID>
+  <LineName>Coastal Line</LineName>
+  <LineRoute>Colombo Fort to Galle and Matara; under-construction to Hambantota and Kataragama</LineRoute>
+  <LineServices>Ruhunu Kumari&#13;Samudra Devi&#13;Galu Kumari&#13;Sagarika&#13;Rajarata Rajina</LineServices>
+</Line>
+<Line>
+  <LineID>8</LineID>
+  <LineName>Puttalam Line</LineName>
+  <LineRoute>Ragama to Puttalam, and Periyanagavillu</LineRoute>
+  <LineServices>Muthu Kumari&#13;Bangadeniya</LineServices>
+</Line>
+<Line>
+  <LineID>3</LineID>
+  <LineName>Kelani Valley Line</LineName>
+  <LineRoute>Colombo to Avissawella</LineRoute>
+  <LineServices></LineServices>
+</Line>
+</Lines>
